@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZapocetMS2", "ZapocetMS2\ZapocetMS2.csproj", "{BFC982F3-F189-4877-8857-7E1F3C7EE72A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC982F3-F189-4877-8857-7E1F3C7EE72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC982F3-F189-4877-8857-7E1F3C7EE72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC982F3-F189-4877-8857-7E1F3C7EE72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC982F3-F189-4877-8857-7E1F3C7EE72A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
