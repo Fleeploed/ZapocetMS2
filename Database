@@ -1,0 +1,34 @@
+create table potraviny
+(
+    id_potraviny    int auto_increment not null primary key,
+    nazev_potraviny varchar(100),
+    pocet_potravin  int,
+    jednotka        varchar(100)
+);
+create table jednotka
+(
+    id_jednotka    int auto_increment not null primary key,
+    nazev_jednotka varchar(100)       null
+);
+create table jidlo
+(
+    id_jidlo     int auto_increment not null primary key,
+    nazev_jidlo  varchar(100),
+    vaha         varchar(100),
+    cena         int,
+    recept       text,
+    id_kategorie int references kategorie (id_kategorie)
+);
+create table kategorie
+(
+    id_kategorie    int auto_increment not null primary key,
+    nazev_kategorie varchar(100)
+);
+
+create table suroviny
+(
+    id_suroviny    int primary key auto_increment not null,
+    id_jidlo       int references jidlo (id_jidlo),
+    id_potraviny   int references potraviny (id_potraviny),
+    pocet_suroviny int
+);
